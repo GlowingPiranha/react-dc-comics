@@ -1,5 +1,5 @@
 const Main = () => {
-  return <h1>applicazione dc comics</h1>;
+  return <img className="img" src="./public/img/jumbotron.jpg" alt="" />
 };
 
 export default Main;

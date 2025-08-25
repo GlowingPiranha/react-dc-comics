@@ -6,7 +6,7 @@ const Header = () => {
       <img className='logo' src="./public/img/dc-logo.png" alt="" />
 
       <nav>
-        <ul>
+        <ul className='nav-list'>
           <li>characters</li>
           <li>comics</li>
           <li>movies</li>

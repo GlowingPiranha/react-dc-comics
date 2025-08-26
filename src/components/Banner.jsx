@@ -2,18 +2,38 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div>
-      <nav>
-        <ul>
-          <li><img className='bannerImg' src="./public/img/buy-comics-digital-comics.jpg" alt="" /> </li>
-          <li><img className='bannerImg' src="./public/img/buy-comics-merchandise.jpg" alt="" /> </li>
-          <li><img className='bannerImg' src="./public/img/buy-comics-subscription.jpg" alt="" /> </li>
-          <li><img className='bannerImg' src="./public/img/buy-comics-shop-locator.jpg" alt="" /> </li>
-          <li><img className='bannerImg' src="./public/img/buy-dc-power-visa.svg" alt="" /> </li>
-        </ul>
-      </nav>
+    <div className="banner">
+      <div className="container max-w-1200">
+        <div className="row">
+          <div className="col-100">
+            <div className="icon-list">
+
+              <div>
+                <img className='banner-img' src="./img/buy-comics-digital-comics.png" alt="" />
+                <span>digital comics</span>
+              </div>
+              <div>
+                <img className='banner-img' src="./img/buy-comics-merchandise.png" alt="" />
+                <span>merchandise</span>
+              </div>
+              <div>
+                <img className='banner-img' src="./img/buy-comics-subscriptions.png" alt="" />
+                <span>subscription</span>
+              </div>
+              <div>
+                <img className='banner-img' src="./img/buy-comics-shop-locator.png" alt="" />
+                <span>shop locator</span>
+              </div>
+              <div>
+                <img className='banner-img' src="./img/buy-dc-power-visa.svg" alt="" />
+                <span>power visa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Banner

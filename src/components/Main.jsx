@@ -1,24 +1,20 @@
 import ComicsList from "./ComicsList";
 
-const Main = () => {
+const Main = ({ comics }) => {
   return (
-    <div className="main  bg-black">
-
+    <div className="main bg-black">
       <div>
-        <img className="jumbo" src="./public/img/jumbotron.jpg" alt="" />
+        <img className="jumbo" src="./img/jumbotron.jpg" alt="" />
       </div>
       <div className="container">
         <div className="row">
           <div className="col-100">
-            <ComicsList />
+            <ComicsList comics={comics} />
           </div>
         </div>
       </div>
     </div>
-
   )
-
-
 };
 
 export default Main;
